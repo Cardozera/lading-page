@@ -1,0 +1,203 @@
+header{
+    background-color: #1F2937; 
+    display: flex;  
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.logo{
+    color: #F9F4F8;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px; /* Espaçamento superior da logo */
+    margin-bottom: 10px; /* Espaçamento inferior da logo */
+    margin-left: 10px; /* Espaçamento esquerdo da logo */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    margin: 0; /* Remove as margens padrão da lista */
+    display: flex; /* Usa um modelo de layout flexível para os itens da lista */
+}
+
+nav li {
+    margin-right: 10px; /* Adiciona um espaço de 1px entre cada item da lista */
+    color: #F9F4F8;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px; /* Espaçamento superior da logo */
+    margin-bottom: 10px; /* Espaçamento inferior da logo */
+    margin-left: 10px; /* Espaçamento esquerdo da logo */
+}
+
+/*FIM DO CODIGO DO CABEÇALHO*/
+
+
+.section1{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filho1 {
+    max-width: 500px; /* Adapte conforme necessário */
+}
+
+h1 {
+    font-size: 2em;
+    color: #F9F4F8; /* Adapte conforme necessário */
+}
+
+p {
+    font-size: 1em;
+    color: #F9F4F8; /* Adapte conforme necessário */
+    margin-bottom: 20px; /* Adapte conforme necessário */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff; /* Adapte conforme necessário */
+    color: #fff; /* Adapte conforme necessário */
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Adapte conforme necessário */
+}
+
+.filho2 img {
+    width: 300px;
+    height: 120px;
+    border-radius: 8px; /* Adapte conforme necessário */
+    margin-top: 30px;
+}
+
+/*FIM DO CODIGO DA SEÇÃO 1*/
+
+
+.section2 {
+    text-align: center;
+}
+  
+.title {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info{
+    border: 5px solid blue;
+    border-radius: 16px;
+}
+  
+.info img {
+    width: 200px;
+    height: 150px;
+}
+
+/*FIM DO CODIGO DA SEÇÃO 2*/
+
+.section3 {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; /* Mudança para direção de coluna */
+    color: #F9F4F8;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.section3 p {
+    font-size: 1.5em;
+    color: #000;
+}
+
+.section3 aside {
+    align-self: flex-end;
+    margin-top: 10px; /* Adiciona espaço entre o parágrafo e o aside */
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    color: #000;
+}
+
+/*FIM DO CODIGO DA SEÇÃO 3*/
+
+.section4 {
+    color: #F9F4F8;
+}
+
+.faixa {
+    background-color: #3882f6;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column; /* Adiciona a direção da coluna */
+    justify-content: space-around;
+    align-items: center; /* Alinha os itens centralmente */
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.faixa h2 {
+    color: #F9F4F8;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faixa p {
+    /* Adicione estilos para o parágrafo conforme necessário */
+}
+
+.button2 {
+    padding: 5px 5px;
+    font-size: 1em;
+    background-color: #3882f6;
+    color: #fff;
+    border: 3px solid white;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-bottom: 5px;
+}
+
+/*FIM DO CODIGO DA SEÇÃO 4*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 50;
+    padding: 20px; /* Adapte conforme necessário */
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer h2 {
+    color: #F9F4F8;
+    font-size: 25px;
+    font-weight: 500;
+}
